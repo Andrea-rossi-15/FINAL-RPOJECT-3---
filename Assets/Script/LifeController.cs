@@ -5,11 +5,13 @@ using UnityEngine;
 public class LifeController : MonoBehaviour
 {
     [SerializeField] public int HP;
+    ChangeSceneScript changeSceneScript;
+    private static int EnemyKilled = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(HP);
+
     }
 
     // Update is called once per frame

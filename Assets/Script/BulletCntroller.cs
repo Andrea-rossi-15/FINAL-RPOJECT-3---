@@ -6,7 +6,11 @@ public class BulletCntroller : MonoBehaviour
 {
     public Transform Nemico;
     public float speed = 9f;
-    public int dannoBullet = 10;
+    public int dannoBullet = 20;
+
+
+
+
 
     void Start()
     {
@@ -34,6 +38,7 @@ public class BulletCntroller : MonoBehaviour
             }
 
             Destroy(gameObject);
+
         }
     }
 }

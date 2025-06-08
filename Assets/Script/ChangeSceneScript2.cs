@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class ChangeSceneScript : MonoBehaviour
+public class ChangeSceneScript2 : MonoBehaviour
 {
-
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +18,7 @@ public class ChangeSceneScript : MonoBehaviour
     void ChangeScene()
     {
 
-        SceneManager.LoadScene("Level 2");
+        SceneManager.LoadScene("Level 1");
 
 
     }

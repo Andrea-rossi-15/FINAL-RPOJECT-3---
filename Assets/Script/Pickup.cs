@@ -31,14 +31,7 @@ public class Pickup : MonoBehaviour
 
         Destroy(collision.gameObject);
         Arma.SetActive(true);
-        playerShooter.proiettili += 30;
-
-
-
-
-
-
-
+        playerShooter.proiettili += 15;
 
     }
 

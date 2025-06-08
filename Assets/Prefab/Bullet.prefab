@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Nemico: {fileID: 4101250944543780609, guid: 0659e98c628734ce29b79427561e9a6b, type: 3}
   speed: 9
-  dannoBullet: 10
+  dannoBullet: 20
 --- !u!61 &-8900010088683807573
 BoxCollider2D:
   m_ObjectHideFlags: 0
